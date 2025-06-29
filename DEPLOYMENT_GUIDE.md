@@ -20,31 +20,16 @@ npx vite build --config vite.config.github.ts
 
 ### 3. Deploy to GitHub Pages
 
-**Option A: Automatic via GitHub Actions**
-1. Create `.github/workflows/deploy.yml`:
-```yaml
-name: Deploy
-on:
-  push:
-    branches: [ main ]
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-    - run: npm ci
-    - run: npx vite build --config vite.config.github.ts
-    - uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-```
-
+**Option A: Automatic via GitHub Actions** (Fixed Version)
+1. The workflow file is already created in this project at `.github/workflows/deploy.yml`
 2. Go to Settings → Pages → Source: "GitHub Actions"
 3. Push to main branch - done!
+
+If you get permissions errors, follow these steps:
+- Go to Settings → Actions → General
+- Under "Workflow permissions", select "Read and write permissions"
+- Check "Allow GitHub Actions to create and approve pull requests"
+- Save
 
 **Option B: Manual Deploy**
 1. Build: `npx vite build --config vite.config.github.ts`
