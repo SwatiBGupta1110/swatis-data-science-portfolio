@@ -62,7 +62,7 @@ const Projects = () => {
         
         <div className="text-center mt-12">
           <Button
-            onClick={() => window.open('https://github.com/swati-sharma', '_blank')}
+            onClick={() => window.open('https://github.com/SwatiBGupta1110', '_blank')}
             className="inline-flex items-center px-6 py-3 bg-primary text-white rounded-full font-semibold hover:bg-blue-700 transition-colors"
           >
             <Github className="mr-2" size={20} />
