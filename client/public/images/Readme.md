@@ -17,7 +17,7 @@ This folder contains **all images used in my data science portfolio**.
 ```jsx
 <img 
   src="/images/Headshot.jpeg"
-  alt="Professional headshot of Swati Sharma"
+  alt="Professional headshot of Swati Gupta"
   className="w-[200px] h-[200px] rounded-full mx-auto mb-6 border-4 border-white/20 shadow-xl object-cover"
 />
 
