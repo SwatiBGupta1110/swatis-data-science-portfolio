@@ -1,16 +1,16 @@
 import { Project, Experience, Education, Certification, BlogPost, Skill } from './types';
 
 export const PERSONAL_INFO = {
-  name: 'Swati Sharma',
+  name: 'Swati Gupta',
   title: 'Data Scientist & Machine Learning Engineer',
-  email: 'swati.sharma@email.com',
-  phone: '+1 (555) 123-4567',
-  location: 'San Francisco, CA',
+  email: 'swatibadrigupta@gmail.com',
+  phone: '+44 7771084480',
+  location: 'London, UK',
   bio: 'Transforming complex data into actionable insights with 4+ years of experience in machine learning, deep learning, and statistical analysis. Passionate about solving real-world problems through data-driven solutions.',
-  linkedin: 'https://linkedin.com/in/swati-sharma',
-  github: 'https://github.com/swati-sharma',
-  twitter: 'https://twitter.com/swati_ds',
-  kaggle: 'https://kaggle.com/swati-sharma'
+  linkedin: 'https://www.linkedin.com/in/swatibadrigupta/',
+  github: 'https://github.com/SwatiBGupta1110',
+  twitter: 'https://twitter.com/SwatiGu38644443',
+  kaggle: 'https://www.kaggle.com/swatigupta11'
 };
 
 export const PROJECTS: Project[] = [
@@ -93,7 +93,7 @@ export const EXPERIENCE: Experience[] = [
     id: '2',
     title: 'Data Scientist',
     company: 'DataTech Analytics',
-    location: 'San Francisco, CA',
+    location: 'London, UK',
     startDate: '2020',
     endDate: '2022',
     description: 'Developed predictive models for retail and e-commerce clients. Built recommendation systems and customer segmentation models that improved client revenues by an average of 25%.',
@@ -103,7 +103,7 @@ export const EXPERIENCE: Experience[] = [
     id: '3',
     title: 'Junior Data Analyst',
     company: 'StartupXYZ',
-    location: 'San Francisco, CA',
+    location: 'London, UK',
     startDate: '2019',
     endDate: '2020',
     description: 'Started my data science journey by analyzing user behavior data and creating dashboards. Developed automated reporting systems and performed statistical analysis for product teams.',
