@@ -21,7 +21,7 @@ export const PROJECTS: Project[] = [
     category: 'ml',
     technologies: ['Python', 'Random Forest', 'Flask', 'Scikit-learn'],
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
-    githubUrl: 'https://github.com/swati-sharma/customer-churn',
+    githubUrl: 'https://github.com/SwatiBGupta1110/customer-churn',
     liveUrl: 'https://churn-prediction-demo.herokuapp.com',
     featured: true
   },
@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     category: 'nlp',
     technologies: ['BERT', 'PyTorch', 'Streamlit', 'Transformers'],
     image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995',
-    githubUrl: 'https://github.com/swati-sharma/sentiment-analysis',
+    githubUrl: 'https://github.com/SwatiBGupta1110/sentiment-analysis',
     liveUrl: 'https://sentiment-analyzer-app.streamlit.app',
     featured: true
   },
@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
     category: 'cv',
     technologies: ['CNN', 'TensorFlow', 'ResNet', 'OpenCV'],
     image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485',
-    githubUrl: 'https://github.com/swati-sharma/medical-image-classification',
+    githubUrl: 'https://github.com/SwatiBGupta1110/medical-image-classification',
     featured: true
   },
   {
@@ -53,7 +53,7 @@ export const PROJECTS: Project[] = [
     category: 'analytics',
     technologies: ['ARIMA', 'Tableau', 'Time Series', 'Python'],
     image: 'https://images.unsplash.com/photo-1590479773265-7464e5d48118',
-    githubUrl: 'https://github.com/swati-sharma/sales-forecasting',
+    githubUrl: 'https://github.com/SwatiBGupta1110/sales-forecasting',
     featured: true
   },
   {
@@ -63,7 +63,7 @@ export const PROJECTS: Project[] = [
     category: 'ml',
     technologies: ['Isolation Forest', 'Neural Networks', 'SMOTE', 'Python'],
     image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3',
-    githubUrl: 'https://github.com/swati-sharma/fraud-detection',
+    githubUrl: 'https://github.com/SwatiBGupta1110/fraud-detection',
     featured: false
   },
   {
@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
     category: 'ml',
     technologies: ['Collaborative Filtering', 'Matrix Factorization', 'Apache Spark'],
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
-    githubUrl: 'https://github.com/swati-sharma/recommendation-system',
+    githubUrl: 'https://github.com/SwatiBGupta1110/recommendation-system',
     featured: false
   }
 ];
