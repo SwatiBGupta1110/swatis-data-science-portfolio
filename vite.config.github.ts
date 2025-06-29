@@ -14,7 +14,7 @@ export default defineConfig({
     outDir: '../dist',
     emptyOutDir: true,
   },
-  base: './',
+  base: '/swatis-data-science-portfolio/',
   server: {
     port: 3000,
   },
