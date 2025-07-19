@@ -55,19 +55,19 @@ const Hero = () => {
             </Button>
             <Button 
               variant="outline"
-              onClick={handleDownloadCV}
-              className="border-2 border-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-white transition-colors"
-            >
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
-            </Button>
-            <Button 
-              variant="outline"
               onClick={() => handleScrollToSection('#contact')}
-              className="border-2 border-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-white transition-colors"
+              className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-colors"
             >
               <Mail className="mr-2 h-4 w-4" />
               Get In Touch
+            </Button>
+            <Button 
+              variant="outline"
+              onClick={handleDownloadCV}
+              className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-colors"
+            >
+              <Download className="mr-2 h-4 w-4" />
+              Download CV
             </Button>
           </div>
         </div>
