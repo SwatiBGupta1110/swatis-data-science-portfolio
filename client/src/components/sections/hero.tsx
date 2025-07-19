@@ -61,14 +61,21 @@ const Hero = () => {
               <Mail className="mr-2 h-4 w-4" />
               Get In Touch
             </Button>
-            <Button 
-              variant="outline"
-              onClick={handleDownloadCV}
-              className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-colors"
-            >
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
-            </Button>
+            <Button
+                asChild
+                variant="outline"
+                className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-colors"
+              >
+                <a
+                  href="https://raw.githubusercontent.com/SwatiBGupta1110/swatis-data-science-portfolio/main/client/public/Swati_Gupta_CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center"
+                >
+                  <Download className="mr-2 h-4 w-4" />
+                  Download CV
+                </a>
+              </Button>
           </div>
         </div>
       </div>
