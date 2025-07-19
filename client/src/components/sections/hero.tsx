@@ -29,9 +29,9 @@ const Hero = () => {
           {/* Professional headshot placeholder */}
           <div className="mb-8">
             <img 
-              src="https://github.com/SwatiBGupta1110/swatis-data-science-portfolio/blob/main/client/public/images/Headshot.jpeg" 
-              alt="Professional headshot of Swati Gupta" 
-              className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white/20 shadow-xl object-cover"
+            src="https://raw.githubusercontent.com/SwatiBGupta1110/swatis-data-science-portfolio/main/client/public/images/Headshot.jpeg"
+            alt="Professional headshot of Swati Gupta"
+            className="w-8 h-8 rounded-full mx-auto mb-6 border-4 border-white/20 shadow-xl object-cover"
             />
           </div>
           
