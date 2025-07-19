@@ -51,7 +51,7 @@ const Hero = () => {
             <Button 
               variant="outline"
               onClick={() => handleScrollToSection('#contact')}
-              className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-colors opacity-100 visible"
+              className="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
             >
               <Mail className="mr-2 h-4 w-4" />
               Get In Touch
@@ -59,7 +59,7 @@ const Hero = () => {
             <Button
                 asChild
                 variant="outline"
-                className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-colors opacity-100 visible"
+                className="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
               >
                 <a
                   href="https://raw.githubusercontent.com/SwatiBGupta1110/swatis-data-science-portfolio/main/client/public/Swati_Gupta_CV.pdf"
