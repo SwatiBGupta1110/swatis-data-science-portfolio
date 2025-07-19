@@ -45,7 +45,7 @@ const Hero = () => {
             {PERSONAL_INFO.bio}
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center opacity-100 visible">
             <Button 
               onClick={() => handleScrollToSection('#projects')}
               className="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
